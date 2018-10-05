@@ -1,0 +1,35 @@
+body {}
+
+.main {}
+
+.dashboard {
+   background-color: #11aa11;
+}
+
+.grid {}
+
+.ships {
+   background-color: #0000ff;
+}
+
+/*basic unit of grid*/
+.cell {
+   border: solid 1px white;
+   width:   10%;
+   height: 10%;
+}
+
+/*style cell to designate free*/
+.blue {
+   background-color: #37fcfc;
+}
+
+/*style cell to designate a miss*/
+.miss {
+   background-color: #ffffff;
+}
+
+/*style cell to designate a hit*/
+.hit {
+   background-color: #ff0000;
+}
