@@ -10,7 +10,7 @@ $(document).ready(function() {
 
    // Assign numerical id to each gridBox.
       addSlot.attr('id', i);
-   */
+   
    }
-
+   */
 });
