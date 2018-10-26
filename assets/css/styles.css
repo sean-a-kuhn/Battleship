@@ -8,34 +8,26 @@ body {}
 /*scoreboard, opponent ships, and game status updates*/
 .dashboardBox {
    background-color: #55ee55;
-   width: 100px;
-   height: 100px;
 }
 
 /*game board where user selects targets*/
 .gridBox {
-   width: 100px;
-   height: 100px;
    border: solid black 1px;
 }
 
 .gridContent {
-   width: 100px;
-   height: 100px;
+   height: 50%;
+   width: 50%;
    border: solid red 1px;
 }
 
 /*display used to select ships to place and status during game*/
 .shipsBox {
    background-color: #00bbff;
-   width: 100px;
-   height: 100px;
 }
 
 /**/
 .dialogBox {
-   width: 100px;
-   height: 100px;
    display: block;
    justify-content: center;
    align-content: center;
@@ -44,14 +36,17 @@ body {}
 }
 
 .dialogContent{
-
+   background-color: red;
+   height:100px;
+   width:50%;
 }
 
 /*basic unit of grid*/
 .cell {
    position: relative;
    float: left;
-   border: solid 1px white;
+   border: solid 1px black;
+   height: 30px;
 }
 
 /*style cell to designate free*/

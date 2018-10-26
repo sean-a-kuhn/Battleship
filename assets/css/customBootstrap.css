@@ -1,0 +1,19 @@
+/*File to apply custom css to bootstrap classes*/
+
+.col-sm-12, .col-xs-12 {
+   height: 50px;
+}
+
+.col-sm-10, .col-xs-10 {
+   height: 100px;
+}
+
+.col-md-12 {
+   height: 100px;
+   max-width: 480px;
+}
+
+.col-md-10 {
+   height: 400px;
+   max-width: 400px;
+}

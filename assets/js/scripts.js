@@ -1,16 +1,19 @@
 $(document).ready(function() {
-   /* basic loop to populate grid with cells stolen from ConnectFour
-      still need to update variables, functions, classes, etc.
-   // Populate gameBoard div with gridBoxes, 6 rows by 7 columns
-   for (var i=0; i<42; i++) {
+  /* 
+   // Populate gameBoard div with cells, 10 rows by 10 columns
+   for (let i=0; i<10; i++) {
+      for (let j=0; j<10; j++) {
 
-      var addSlot = $('<div class="col-xs-1 slot"></div>');
+      var addCell = $('<div class="col-xs-1 col-sm-1 col-lg-1 cell"></div>');
 
-      $(".gameBoard").append(addSlot);
+      $(".gridBox").append(addCell);
 
    // Assign numerical id to each gridBox.
-      addSlot.attr('id', i);
-   
+      let cellId = i + "-" + j;
+      addCell.attr('id', cellId);
+      }
    }
-   */
+   $(".gridBox").append();
+*/
+
 });
