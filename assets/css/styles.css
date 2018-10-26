@@ -16,8 +16,8 @@ body {}
 }
 
 .gridContent {
-   height: 50%;
-   width: 50%;
+   height: 100%;
+   width: 100%;
    border: solid red 1px;
 }
 
@@ -46,7 +46,8 @@ body {}
    position: relative;
    float: left;
    border: solid 1px black;
-   height: 30px;
+   width: 10%;
+   height: 10%;
 }
 
 /*style cell to designate free*/
